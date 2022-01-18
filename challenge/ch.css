@@ -1,1 +1,51 @@
- 
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    font-family: メイリオ;
+    margin: 0;
+}
+
+body {
+    background: #f8d8bf;
+    margin: 0;
+    padding: 0;
+    
+}
+
+article {
+    background: #fff;
+    width: 800px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+header {
+    background: #f83;
+    color: #fff;
+    padding: 10px;
+}
+section {
+    padding: 20px;
+    border: 1px solid #ccc
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #f83;
+}
+
+ul,ol {
+    padding-left: 20px;
+}
+
+address {
+    text-align: center;
+}

@@ -33,7 +33,7 @@ li {
 }
 
 /*--------------------------------
- レイアウト
+  レイアウト
 ---------------------------------*/
 .wrapper {
   padding-top: 73px;
@@ -54,7 +54,7 @@ li {
 }
 
 /*--------------------------------
- 見出し
+  見出し
 ---------------------------------*/
 .title {
   font-size: 34px;
@@ -138,7 +138,7 @@ li {
 }
 
 /*--------------------------------
- メインビジュアル
+  メインビジュアル
 ---------------------------------*/
 .main-visual {
   display: flex;
@@ -151,7 +151,11 @@ li {
 .main-visual-inner {
   padding: 0 40px;
 }
-
+.main-visual-aicon {
+  max-width: 35%;
+  display: block;
+  margin: auto;
+}
 .main-visual-title {
   font-size: 60px;
   font-weight: bold;
